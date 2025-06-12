@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fugaz One";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;  
+}
+
+header{
+  font-size: 50px;
+  padding-top: 35px
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  display: flex;
+  background-image: url(https://www.colorfulstage.com/upload_images/media/Wallrappers/iphone_bg_02.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;height: 100vh;   
+}
+
+
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #111;
+  color: white;
+  padding: 1em;
+}
+
+#navbar header {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 0.5em 0;
+}
+
+
+#main-doc {
+  margin-left: 260px;
+  padding: 2em;
+}
+
+
+.main-img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 1em 0;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  #main-doc {
+    margin-left: 0;
+  }
+}
